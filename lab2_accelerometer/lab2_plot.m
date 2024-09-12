@@ -7,7 +7,8 @@ s = serialport(serialPort, baudRate);
 
 
 
-% Set limits for the axis to ensure that the acceleration values do not overflow
+% Set limits for the axis to ensure that the 
+% acceleration values do not overflow
 xLimit = [0, 1024]; 
 yLimit = [0, 1024];
 zLimit = [0, 1024];
